@@ -1,0 +1,141 @@
+html {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(245,245,245);
+    font-family: 'Commissioner';
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    color: hsl(0, 0%, 48%)
+}
+
+.top-container {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-image: url('./images/image-hero-desktop.jpg');
+    background-position: center bottom;
+    background-size: cover;
+}
+
+nav {
+    padding-top: 20px;
+    margin: 0 10%;
+}
+
+.links {
+    display: block;
+    float: right;
+}
+
+.links ul {
+    margin: 0;
+}
+
+.links li {
+    color: white;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-container {
+    position: relative;
+    z-index: 10;
+    top: 250px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: transparent;
+}
+
+.main-container div {
+    margin: 15px 0;
+}
+
+.main-container img {
+    position: relative;
+    bottom: 25px;
+}
+
+.intro {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.intro-buttons {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin: 25px 0;
+}
+
+.back-this-project {
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(176, 50%, 47%);
+    font-weight: bold;
+    color: white;
+    margin-right: auto;
+    float: left;
+}
+
+.bookmark {
+    padding: 15px 20px;
+    border-radius: 25px;
+    position: relative;
+    border: none;
+    float: right;
+    font-weight: bold;
+}
+
+.bookmark img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 45px;
+}
+
+.bookmark span {
+    margin-left: 35px;
+}
+
+.goal {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.goal div {
+    display: inline-block;
+    width: 30%;
+}
+
+.total-backers {
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+.about {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
